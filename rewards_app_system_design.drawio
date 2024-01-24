@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-01-24T16:17:27.673Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.21 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="lQzuKTRivN7Zgz4fBfWE" version="22.1.21" type="device" pages="5">
+<mxfile host="Electron" modified="2024-01-24T21:57:23.125Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.21 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="DquJnPg9oG6Tj45Qjqqp" version="22.1.21" type="device" pages="5">
   <diagram id="fQrJ6b2n_Re6YauJPuTL" name="APP FLOW">
-    <mxGraphModel dx="1059" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1578,7 +1578,7 @@
         <mxCell id="U0gN_287P5B4yzNTi6_L-34" value="REQ PAYLOAD: {&quot;PHONE_NUMBER&quot;: &quot;USER_PHONE&quot;, &quot;OTP&quot;: &quot;ENTERED_OTP&quot;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="15" y="670" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="U0gN_287P5B4yzNTi6_L-35" value="RES: {&quot;STATUS&quot;: &quot;SUCCESS&quot;, &quot;MSG&quot;: &quot;MESSAGE&quot;, &quot;USER_ESISTS&quot;: &quot;TRUE/FALSE&quot;, &quot;NEXT_STEP&quot;:&quot;SIGNUP&quot;. &quot;AUTH_TOKEN&quot;:&quot;TOKEN&quot;, &quot;REFRESH_TOKEN&quot;:&quot;TOKEN&quot;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="U0gN_287P5B4yzNTi6_L-35" value="RES: {&quot;STATUS&quot;: &quot;SUCCESS&quot;, &quot;MSG&quot;: &quot;MESSAGE&quot;, &quot;USER_EXISTS&quot;: &quot;TRUE/FALSE&quot;, &quot;NEXT_STEP&quot;:&quot;SIGNUP&quot;. &quot;AUTH_TOKEN&quot;:&quot;TOKEN&quot;, &quot;REFRESH_TOKEN&quot;:&quot;TOKEN&quot;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="15" y="725" width="260" height="75" as="geometry" />
         </mxCell>
         <mxCell id="U0gN_287P5B4yzNTi6_L-36" value="&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -1590,7 +1590,7 @@
         <mxCell id="U0gN_287P5B4yzNTi6_L-38" value="REQ PAYLOAD: {&quot;phone_number&quot;: &quot;user_phone_number&quot;, &quot;first_name&quot;: &quot;user_first_name&quot;, &quot;last_name&quot;: &quot;user_last_name&quot;,&quot;EMAIL&quot;:&quot;user_email&quot;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="305" y="705" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U0gN_287P5B4yzNTi6_L-39" value="RES: {&quot;STATUS&quot;: &quot;SUCCESS&quot;, &quot;MSG&quot;: &quot;MESSAGE&quot;, &quot;USER_ESISTS&quot;: &quot;TRUE/FALSE&quot;, &quot;NEXT_STEP&quot;:&quot;SIGNUP&quot;....}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="U0gN_287P5B4yzNTi6_L-39" value="RES: {&quot;STATUS&quot;: &quot;SUCCESS&quot;, &quot;MSG&quot;: &quot;MESSAGE&quot;, &quot;USER_EXISTS&quot;: &quot;TRUE/FALSE&quot;, &quot;NEXT_STEP&quot;:&quot;SIGNUP&quot;....}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="305" y="770" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U0gN_287P5B4yzNTi6_L-40" value="REQ HEADER: {&quot;AUTH_TOKEN&quot;: &quot;TOKEN&quot;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
